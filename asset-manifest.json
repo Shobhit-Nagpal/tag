@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tag/static/css/main.5e1b2b3a.css",
+    "main.js": "/tag/static/js/main.cadfc25f.js",
+    "static/media/spider-man-miles-morales-artwork-3840x2160-4813.jpg": "/tag/static/media/spider-man-miles-morales-artwork-3840x2160-4813.3041ae11f4e0cc5a71e9.jpg",
+    "static/media/ps4.jpg": "/tag/static/media/ps4.142ae3b4ba17804935f9.jpg",
+    "index.html": "/tag/index.html",
+    "main.5e1b2b3a.css.map": "/tag/static/css/main.5e1b2b3a.css.map",
+    "main.cadfc25f.js.map": "/tag/static/js/main.cadfc25f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e1b2b3a.css",
+    "static/js/main.cadfc25f.js"
+  ]
+}
