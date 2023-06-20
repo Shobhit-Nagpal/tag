@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    height: 25%;
+    background-color: #EC1D25;
+    color: #121212;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+  }
+
+  .header-content {
+    color: #121212;
+  }

@@ -1,0 +1,13 @@
+.dropdown {
+    color: white;
+    background-color: #121212;
+    padding: 10px;
+}
+
+.character {
+    padding: 10px;
+    list-style: none;
+    border: 2px #000000 solid;
+    cursor: pointer;
+    margin: 10px;
+}

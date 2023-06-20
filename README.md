@@ -1,3 +1,8 @@
+# About
+
+Spider-Man photo on home page: https://4kwallpapers.com/games/spider-man-miles-morales-artwork-4813.html
+Game artwork in the project is from <a href="https://www.artstation.com/pierreroussel">Pierre Roussel</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

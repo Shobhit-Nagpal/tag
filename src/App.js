@@ -1,9 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import RouteSwitch from './components/RouteSwitch';
+import DropdownProvider from './context/DropdownProvider';
+import './styles/App.css'
 
-function App() {
+const App = () => {
   return (
-    <></>
+    <DropdownProvider>
+      <><RouteSwitch/></>
+    </DropdownProvider>
   );
 }
 
