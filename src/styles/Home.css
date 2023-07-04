@@ -1,6 +1,5 @@
 .tagline {
-    margin-top: 120px;
-    margin-right: 100px;
+    margin: 8rem auto;
 }
 
 .tagline-primary {
@@ -14,19 +13,51 @@
 }
 
 .home {
-    margin-top: 160px;
     padding: 10px;
-    margin-left: 100px;
     display: flex;
     justify-content: space-between;
     gap: 100px;
+    margin: 10rem auto;
 }
 
 .home-img {
+    margin: 0 auto;
+}
+
+
+.home-img img{
   height: 540px;
   width: 960px;
   padding: 20px;
   margin-right: 150px;
   border-radius: 30px;
   border: 2px solid #EC1D25;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 1500px) {
+    .home {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .home-img img{
+        height: auto;
+        max-width: 100%;
+        padding: 0.5rem;
+        border-radius: 30px;
+        border: 2px solid #EC1D25;
+        object-fit: contain;
+        margin: 0;
+      }
+
+      .tagline {
+        margin: 1rem auto;
+      }
+}
+
+@media screen and (max-width: 495px) {
+    .tagline {
+        text-align: center;
+    }
 }

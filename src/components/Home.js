@@ -10,8 +10,8 @@ const Home = () => {
       <>
       <Header/>
       <div className="home">
-        <div>
-            <img className="home-img" src={spiderManImage} alt="Spider-Man Miles Morales"/>
+        <div className="home-img">
+            <img src={spiderManImage} alt="Spider-Man Miles Morales"/>
         </div>
         <div className="tagline">
         <h1 className="tagline-primary">Tag, <span className="tagline-secondary"><p>your favorite characters.</p></span></h1>
