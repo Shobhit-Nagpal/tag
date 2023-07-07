@@ -64,7 +64,7 @@ const Game = () => {
   }, [totalTime]);
 
     return (
-      <div>
+      <div className="game">
         {showModal ? (<Modal setShowModal={setShowModal} totalTime={totalTime}/>) : (null)}
         <Dropdown dropDownCoords={dropDownCoords} handleDropDownClick={handleDropDownClick} />
         <Timer setTotalTime={setTotalTime} isGameOver={isGameOver}/>

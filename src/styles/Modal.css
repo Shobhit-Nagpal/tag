@@ -24,3 +24,11 @@ input {
   border-radius: 5px;
   transition: 0.15s;
 }
+
+@media screen and (max-width: 500px) {
+
+    .modal {
+        max-width: 320px;
+    }
+    
+}
