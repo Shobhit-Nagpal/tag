@@ -11,7 +11,7 @@ const getScores = async () => {
         const allScores = [];
 
         querySnapshot.forEach((doc) => {
-            allScores.push(doc.data());
+            allScores.push({data: doc.data(), id: doc.id});
         });
 
         return allScores;
